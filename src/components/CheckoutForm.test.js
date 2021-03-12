@@ -39,3 +39,4 @@ test("form shows success message on submit with form details", async () => {
     const successMessage = await screen.getByText(/You have ordered some plants! Woo-hoo!/i)
     expect(successMessage).toBeVisible
 });
+ 
