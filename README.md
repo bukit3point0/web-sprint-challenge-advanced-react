@@ -38,10 +38,10 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 - [X] In another terminal window, **RUN** `npm test` to start your test runner. (It is recommended you do this only when actually building tests - any change in your app will make the tests run, and that could eat up your computer power)
 
 ### Task 2: CodeGrade Setup
-* [ ] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
-* [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
-* [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
-* [ ] Check to see that Codegrade has accepted your git submission.
+* [X] Open the assignment in Canvas and following along with the attached document [here.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374).
+* [X] Follow instructions to set up Codegrade's Webhook and Deploy Key, making sure your deployment is set to your `<firstName-lastName>`.
+* [X] Push your first commit: `git commit --allow-empty -m "first commit" && git push`
+* [X] Check to see that Codegrade has accepted your git submission.
 
 ### Task 3: Project Requirements
 
@@ -69,8 +69,8 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 #### Testing the Checkout Form
 * [X] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
 * [X] Fill out code necessary to test that that Checkout form renders without errors.
-* [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
+* [X] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
+* [X] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
 **Notes:**
 * Again, unlike other projects, the local server used here can not be accessed through the browser. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.

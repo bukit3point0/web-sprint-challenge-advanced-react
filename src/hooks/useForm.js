@@ -9,7 +9,7 @@ const initialValue = {
     city: "",
     state: "",
     zip: "",
-  };
+};
 
 const useForm = () => {
     const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -21,6 +21,7 @@ const useForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         setShowSuccessMessage(true);
     };
 
